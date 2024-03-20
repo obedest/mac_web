@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel = "icon" href = "mac.svg">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href = "#about">About</a>
+            <a href = "#portfolio">Portfolio</a>
+            <a href = "#skills">Skills</a>
+            <a href = "#contacts">Contacts</a>
+        </nav>
+    </div>
+
+    <div class = "about" id = "about">
+        <h2>About</h2>
+        <p>Hey I'm Oksana. I'm doing a <b>Bachelor of Commerce and Computer Science</b> at Monash University</p>
+        <img src = "https://www.monash.edu/__data/assets/image/0004/959530/clayton-campus-new-horizons-building-exterior-at-night-2013.jpg"
+        alt = "Headshot">
+    </div>
+
+    <div class = "portfolio" id = "portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <h3>Project 1: Snakes and Ladders</h3>
+            <p>This is my <b>first project</b>.</p>
+            <a href = "https://google.com">
+                <button>View my project</button>
+            </a>
+        </div>
+        <div>
+            <h3>Project 2: MAC Web Dev</h3>
+            <p>This is my <b>second project</b>.</p>
+            <a href = "https://google.com">
+                <button>View my project</button>
+            </a>
+        </div>
+    </div>
+    
+    <div class = "skills" id = "skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ol>
+            <li>Python</li>
+            <li>HTML</li>
+        </ol>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Leadership</li>
+            <li>Time Management</li>
+            <li>Public Speaking</li>
+        </ul>
+    </div>
+
+    <div class = "contact" id = "contact">
+        <h2>Contact</h2>
+        <form action = "/submit-contact" method = "post">
+            <label for = "name">Name:</label><br>
+            <input type = "text" id = "name" name = "name"
+            required><br><br>
+
+            <label for = "email">Email:</label><br>
+            <input type = "email" id = "email" name = "email"
+            required><br><br>
+
+            <label for = "message">Message:</label><br>
+            <textarea type = "essage" id = "message" rows = "4"
+            cols = "50" required></textarea><br><br>
+
+            <input type = "submit" value = "Submit">
+        </form>
+    </div>
+
+    <div>
+        <footer>
+            <p>&copy; 2024 Oksana B. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
